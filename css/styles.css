@@ -88,7 +88,7 @@ footer button{
     background: url('/images/bg-intro-desktop.svg')left top no-repeat;
 }
 #intro img{
-    width: 90%;
+    width: 105%;
 }
 #about{
     padding: 50px ;
@@ -101,7 +101,7 @@ footer button{
     display: flex;
 }
 #about p{
-   width: 70%;
+   width: 60%;
    color: hsl(233, 8%, 62%);
    font-weight: 100;
    font-size: 30px;
@@ -258,10 +258,11 @@ button{
         flex-direction: column;
         text-align: center;
         padding-top: 50px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
      }
      #home article{
         order: 2;
+        width: 100vw;
      }
      #about{
         text-align: center;
