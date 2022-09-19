@@ -7,7 +7,9 @@ body{
   font-family: 'Public Sans', sans-serif;
   font-size: 18px;
   overflow-x: hidden;
+  background-color: black;
 }
+
 header{
     width: 100vw;
     height: 8vh;
@@ -88,7 +90,7 @@ footer button{
     background: url('/images/bg-intro-desktop.svg')left top no-repeat;
 }
 #intro img{
-    width: 105%;
+    width: 100%;
 }
 #about{
     padding: 50px ;
@@ -186,21 +188,19 @@ button{
 }
 .menuBtn{
     display: none;
-    margin-right: 20px;
 }
 .mobile-menu{
     display: flex;
-    flex-direction: column;
-    padding-left: 10px;   
-    float: right; 
-    width: 30vw;
+    flex-direction: column; 
+
+    width: 50vw;
     height: 100vh;
     background-color: #fff;
     position: fixed;
     right: 0;
 }
 .mobile-menu .nav-item{
-    padding: 0 10px 25px 0;
+    padding: 0 10px 25px 10px;
 }
 .mobile-menu{
     display: none;
@@ -262,7 +262,7 @@ button{
      }
      #home article{
         order: 2;
-        width: 100vw;
+        width: 100%;
      }
      #about{
         text-align: center;
@@ -273,10 +273,11 @@ button{
         justify-content: center;
         text-align: center;
         padding-top: 40px;
+        width: 100%;
      }
      #about p{
         font-size: 18px;
-        width: 100%;
+        width: 90%;
      }
      #blog{
         justify-content: center;
@@ -291,28 +292,32 @@ button{
         margin: 10px 0;
      }
      #blog .image-comments{
-        width: 400px;
+        width: 100%;
         border-radius: 10px 10px 0 0;
      }
      #blog article div{
-        width: 400px;
         text-align: start;
-        margin-top: 40px;
      }
      #blog .text-card{
-        width: 350px;
+        width: 100%;
         margin: 0 auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        text-justify: auto;
+        padding: 20px 10px 20px 15px;
+     }
+     #blog .text-card p{
+        text-align: center;
+        padding-right: 20px;
+     }
+     #blog .card{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+     }
+     #blog article.mobile-distance{
+        margin-top: 1000px;
      }
      .itens-about{
         margin-top: 30px;
-     }
-     .card{
-        margin: 0;
-     }
-     .card img{
-        height: 250px;
      }
     .menuBtn{
         display: block;
